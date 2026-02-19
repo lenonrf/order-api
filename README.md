@@ -1,6 +1,6 @@
 ## 📋 CONTEXTO DO NEGÓCIO
 
-Você foi contratado pela DoorDash para criar um sistema de cálculo de comissões. A DoorDash cobra uma comissão (fee) de cada pedido processado através da plataforma. Diferentes restaurantes podem ter diferentes taxas de comissão baseadas no volume de pedidos e valores.
+Você foi contratado para criar um sistema de cálculo de comissões. A Empresa cobra uma comissão (fee) de cada pedido processado através da plataforma. Diferentes restaurantes podem ter diferentes taxas de comissão baseadas no volume de pedidos e valores.
 
 Seu trabalho é criar uma API REST que calcule o valor total de comissão que um restaurante deve pagar em uma data específica.
 
