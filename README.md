@@ -1,4 +1,4 @@
-## 📋 CONTEXTO DO NEGÓCIO
+## CONTEXTO DO NEGÓCIO
 
 Você foi contratado para criar um sistema de cálculo de comissões. A Empresa cobra uma comissão (fee) de cada pedido processado através da plataforma. Diferentes restaurantes podem ter diferentes taxas de comissão baseadas no volume de pedidos e valores.
 
@@ -6,7 +6,7 @@ Seu trabalho é criar uma API REST que calcule o valor total de comissão que um
 
 ---
 
-## 🎯 PROBLEMA
+## PROBLEMA
 
 Implemente uma API REST que:
 
@@ -53,7 +53,7 @@ Implemente uma API REST que:
 
 ---
 
-## 💰 REGRAS DE COMISSÃO
+## REGRAS DE COMISSÃO
 
 A taxa de comissão varia baseada no **valor individual do pedido**:
 
@@ -72,7 +72,7 @@ A taxa de comissão varia baseada no **valor individual do pedido**:
 
 ---
 
-## 📊 DADOS MOCK (SIMULAR BANCO DE DADOS)
+## DADOS MOCK (SIMULAR BANCO DE DADOS)
 
 Para facilitar, crie um serviço mock com os seguintes pedidos:
 
@@ -96,7 +96,7 @@ ORD008: $180.00 às 19:00
 
 ---
 
-## ✅ REQUISITOS TÉCNICOS
+## REQUISITOS TÉCNICOS
 
 ### 1. **DTOs (Data Transfer Objects)**
 
@@ -149,9 +149,9 @@ exception/
 
 Crie `OrderCommissionServiceTest.java` com:
 
-- ✅ Teste happy path (restaurante com pedidos)
-- ✅ Teste empty (restaurante sem pedidos)
-- ✅ Teste taxas corretas para diferentes valores
-- ✅ Teste cálculo de média
-- ✅ Teste breakdown completo
-- ✅ Teste data passada (sem pedidos)
+- Teste happy path (restaurante com pedidos)
+- Teste empty (restaurante sem pedidos)
+- Teste taxas corretas para diferentes valores
+- Teste cálculo de média
+- Teste breakdown completo
+- Teste data passada (sem pedidos)
